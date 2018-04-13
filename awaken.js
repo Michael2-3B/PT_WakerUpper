@@ -7,5 +7,5 @@ function wakeUp(){
 }
 
 function start(){
-  setInterval(function(){if(w > 0)w-=10;text.innerHTML = "PT_ is " + w + "% awake.";},500);
+  setInterval(function(){if(w > 0)w-=10;if(w>0)text.innerHTML = "PT_ is " + w + "% awake.";if(w==0)text.innerHTML = "PT_ is asleep.";},500);
 }
