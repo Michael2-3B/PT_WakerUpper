@@ -1,0 +1,15 @@
+body {
+  background-color = "lightblue";
+}
+
+button {
+  color: "white";
+  background-color: "navy";
+  border: none;
+	padding: 12px 28px;
+	text-align: center;
+	display: inline-block;
+	font-size: 14px;
+	margin: 4px 2px;
+	cursor: pointer;
+}
